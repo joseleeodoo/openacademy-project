@@ -7,7 +7,7 @@
         subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-        Long description of module's purpose
+       Module developed by Puerto Rico Computer Svcs for training purposes.
     """,
 
     'author': "PR Computer",
@@ -30,7 +30,8 @@
     ],
     # only loaded in demonstration mode
     'demo': [
-        'demo/demo.xml',
+        #'demo/demo.xml',
     ],
     'installable': True,
+    'auto_install': False,
 }
